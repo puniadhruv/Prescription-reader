@@ -1,0 +1,53 @@
+============================================================
+MEDICAL PRESCRIPTION REPORT
+Generated on: 2026-06-11 15:26:12
+============================================================
+
+ Extracted Text:
+
+Dr. Sanjeev Hasija Regn. No. : HN 17009
+M.D. (Medicine) Date: _lifoe/2026
+, HMC Diagnostic Centre Patient Name: Rahul Shaxma
+Near Ramesh Gas Agency Godown, Bahadurgarh Road,
+| Beri Gate, Jhajjar-124103 (Hry.) Age/ Gender: 25 Y / Mabe
+- Take 1 tablet
+- Twice Dai
+- After mad
+- Fer 5 Days
+Q. Cefixime 200me
+—- Take 1 tablet
+- After Feed
+— Twice Doky
+—- For 5 Days
+3. Razo DSR
+- Take 1 Capsule
+- Once Daily
+- For F Days
+Advice : |
+© Take proper nest .
+> Follow up after 7 days if Symptoms pout. Dr. Sanjeev Hasija
+M.D. (Medicine)
+
+
+------------------------------------------------------------
+
+ Medicines Identified:
+
+ Name: Cefixime
+   Dosage: 200mg twice daily
+   Instructions: After food
+   Warning: Complete antibiotic course
+
+ Name: Razo DSR
+   Dosage: 1 capsule daily
+   Instructions: Before breakfast
+   Warning: Take on empty stomach
+
+
+ Contraindications Detected:
+Razo DSR contraindicated for Liver disease
+
+ Confidence Score: 80.0%
+
+ Please verify all extracted data manually for safety before use.
+============================================================

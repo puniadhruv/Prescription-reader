@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+
+    <h1>Prescription Analysis</h1>
+
+    <h2>Extracted Text</h2>
+
+    <pre>{{ text }}</pre>
+
+    <hr>
+
+    <h2>Medicines Found</h2>
+
+    {% if medicines %}
+
+        <ul>
+
+        {% for med, details in medicines %}
+
+            <li>
+
+                <b>{{ med }}</b>
+
+                <ul>
+                    <li>Dosage: {{ details.dosage }}</li>
+                    <li>Instructions: {{ details.instructions }}</li>
+                    <li>Warning: {{ details.warning }}</li>
+                </ul>
+
+            </li>
+
+        {% endfor %}
+
+        </ul>
+
+    {% else %}
+
+        <p>No medicines detected.</p>
+
+    {% endif %}
+
+    <h3>Confidence Score: {{ confidence }}%</h3>
+
+    <br>
+
+    <a href="/">Analyze Another Prescription</a>
+
+</body>
+</html>

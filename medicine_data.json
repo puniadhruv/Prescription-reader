@@ -1,0 +1,201 @@
+{
+  "Paracetamol": {
+    "dosage": "500mg twice daily",
+    "instructions": "After meals",
+    "warning": "Do not exceed 4g/day",
+    "interactions": ["Ibuprofen"],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Ibuprofen": {
+    "dosage": "400mg every 8 hours",
+    "instructions": "After meals",
+    "warning": "May cause stomach irritation",
+    "interactions": ["Paracetamol"],
+    "contraindications": ["Kidney disease"]
+  },
+
+  "Amoxicillin": {
+    "dosage": "500mg three times daily",
+    "instructions": "Before food",
+    "warning": "Complete full course",
+    "interactions": ["Tetracycline"],
+    "contraindications": ["Penicillin allergy"]
+  },
+
+  "Azithromycin": {
+    "dosage": "500mg once daily",
+    "instructions": "After food",
+    "warning": "Complete prescribed course",
+    "interactions": [],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Cefixime": {
+    "dosage": "200mg twice daily",
+    "instructions": "After food",
+    "warning": "Complete antibiotic course",
+    "interactions": [],
+    "contraindications": ["Cephalosporin allergy"]
+  },
+
+  "Dolo 650": {
+    "dosage": "650mg when needed",
+    "instructions": "After meals",
+    "warning": "Do not overdose",
+    "interactions": [],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Razo DSR": {
+    "dosage": "1 capsule daily",
+    "instructions": "Before breakfast",
+    "warning": "Take on empty stomach",
+    "interactions": [],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Pan DSR": {
+    "dosage": "1 capsule daily",
+    "instructions": "Before breakfast",
+    "warning": "Do not crush capsule",
+    "interactions": [],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Pantoprazole": {
+    "dosage": "40mg once daily",
+    "instructions": "Before breakfast",
+    "warning": "Long-term use needs monitoring",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Omeprazole": {
+    "dosage": "20mg once daily",
+    "instructions": "Before breakfast",
+    "warning": "Take before food",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Cetirizine": {
+    "dosage": "10mg once daily",
+    "instructions": "Before bedtime",
+    "warning": "May cause drowsiness",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Levocetirizine": {
+    "dosage": "5mg once daily",
+    "instructions": "At night",
+    "warning": "May cause drowsiness",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Montelukast": {
+    "dosage": "10mg once daily",
+    "instructions": "At night",
+    "warning": "Use regularly for best effect",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Metformin": {
+    "dosage": "500mg twice daily",
+    "instructions": "After meals",
+    "warning": "Monitor blood sugar levels",
+    "interactions": [],
+    "contraindications": ["Kidney disease"]
+  },
+
+  "Amlodipine": {
+    "dosage": "5mg once daily",
+    "instructions": "Same time daily",
+    "warning": "Monitor blood pressure",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Losartan": {
+    "dosage": "50mg once daily",
+    "instructions": "Same time daily",
+    "warning": "Monitor blood pressure",
+    "interactions": [],
+    "contraindications": ["Pregnancy"]
+  },
+
+  "Telmisartan": {
+    "dosage": "40mg once daily",
+    "instructions": "Same time daily",
+    "warning": "Monitor blood pressure",
+    "interactions": [],
+    "contraindications": ["Pregnancy"]
+  },
+
+  "Atorvastatin": {
+    "dosage": "10mg at bedtime",
+    "instructions": "At night",
+    "warning": "Avoid excessive alcohol",
+    "interactions": [],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Rosuvastatin": {
+    "dosage": "10mg at bedtime",
+    "instructions": "At night",
+    "warning": "Monitor liver function",
+    "interactions": [],
+    "contraindications": ["Liver disease"]
+  },
+
+  "Diclofenac": {
+    "dosage": "50mg twice daily",
+    "instructions": "After meals",
+    "warning": "May cause stomach irritation",
+    "interactions": [],
+    "contraindications": ["Ulcer"]
+  },
+
+  "Aceclofenac": {
+    "dosage": "100mg twice daily",
+    "instructions": "After meals",
+    "warning": "Avoid long-term use",
+    "interactions": [],
+    "contraindications": ["Ulcer"]
+  },
+
+  "Vitamin D3": {
+    "dosage": "60000 IU weekly",
+    "instructions": "After meals",
+    "warning": "Take as prescribed",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Calcium": {
+    "dosage": "500mg daily",
+    "instructions": "After meals",
+    "warning": "Drink plenty of water",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "Iron": {
+    "dosage": "1 tablet daily",
+    "instructions": "Before meals",
+    "warning": "May cause constipation",
+    "interactions": [],
+    "contraindications": []
+  },
+
+  "ORS": {
+    "dosage": "As needed",
+    "instructions": "Mix in clean water",
+    "warning": "Use freshly prepared solution",
+    "interactions": [],
+    "contraindications": []
+  }
+}
