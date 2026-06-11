@@ -1,10 +1,4 @@
-try:
-    from flask import Flask, render_template, request
-except ImportError as e:
-    raise ImportError(
-        "Flask is not installed. Install it with 'pip install flask' and try again."
-    ) from e
-
+from flask import Flask, render_template, request
 from prescription_reader import (
     preprocess_image,
     extract_text_from_image,

@@ -1,3 +1,6 @@
 pytesseract
-opencv-python
+opencv-python-headless
 Pillow
+gunicorn
+numpy
+flask
