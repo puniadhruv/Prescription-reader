@@ -1,4 +1,10 @@
-from flask import Flask, render_template, request
+try:
+    from flask import Flask, render_template, request
+except ImportError as e:
+    raise ImportError(
+        "Flask is not installed. Install it with 'pip install flask' and try again."
+    ) from e
+
 from prescription_reader import (
     preprocess_image,
     extract_text_from_image,
@@ -11,6 +17,7 @@ import os
 app = Flask(__name__)
 
 UPLOAD_FOLDER = "uploads"
+
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
@@ -32,7 +39,11 @@ def analyze():
     if file.filename == "":
         return "No file selected"
 
-    filepath = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
+    filepath = os.path.join(
+        app.config["UPLOAD_FOLDER"],
+        file.filename
+    )
+
     file.save(filepath)
 
     image = preprocess_image(filepath)
@@ -41,7 +52,10 @@ def analyze():
 
     medicines = find_medicines(extracted_text)
 
-    confidence = calculate_confidence(medicines)
+    confidence = round(
+        calculate_confidence(medicines),
+        1
+    )
 
     return render_template(
         "result.html",
