@@ -1,7 +1,6 @@
 # =====================================================
 # ADVANCED MEDICAL PRESCRIPTION READER (with folder support)
 # =====================================================
-import pandas as pd
 import pytesseract
 import cv2
 import json
